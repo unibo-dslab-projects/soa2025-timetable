@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Summer School 2025 Agenda</title>
+  <title>Summer School 2025 - Smart Objects and Their Applications | Agenda</title>
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.js"></script>
   <style>
@@ -11,12 +12,21 @@
       margin: 40px;
     }
 
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
     #legend {
-      max-width: 900px;
+      width: fit-content;
+      padding: 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
       margin: 0 auto 20px auto;
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      background-color: #f0f0f0;
     }
 
     .legend-item {
@@ -64,7 +74,7 @@
 </head>
 <body>
 
-  <h1>Summer School 2025 Agenda</h1>
+  <h1>Summer School 2025: Smart Objects and Applications</h1>
 
   <div id="legend">
     <div class="legend-item"><div class="legend-color" style="background-color:#3788d8"></div>Lecture</div>
@@ -99,31 +109,31 @@
           { title: "Arrival in Bologna & Transfer", start: "2025-07-06T09:00:00", end: "2025-07-06T12:00:00", className: "other" },
 
           // Monday 7
-          { title: "Intro (Mirri)", start: "2025-07-07T10:00:00", end: "2025-07-07T11:00:00", className: "lecture" },
-          { title: "Smart Environments (Mirri)", start: "2025-07-07T11:00:00", end: "2025-07-07T13:00:00", className: "lecture" },
+          { title: "Intro (Mirri) - classroom 2.8", start: "2025-07-07T10:00:00", end: "2025-07-07T11:00:00", className: "lecture" },
+          { title: "Smart Environments (Mirri) - classroom 2.8", start: "2025-07-07T11:00:00", end: "2025-07-07T13:00:00", className: "lecture" },
           { title: "Lunch", start: "2025-07-07T13:00:00", end: "2025-07-07T14:30:00", className: "lunch" },
-          { title: "IoT Data Primer (Manzoni)", start: "2025-07-07T14:30:00", end: "2025-07-07T16:30:00", className: "lecture" },
+          { title: "IoT Data Primer (Manzoni) - classroom 2.8", start: "2025-07-07T14:30:00", end: "2025-07-07T16:30:00", className: "lecture" },
           { title: "Welcome Party @Volume", start: "2025-07-07T16:30:00", end: "2025-07-07T18:00:00", className: "social" },
 
           // Tuesday 8
-          { title: "Smart Object Security (D'Angelo)", start: "2025-07-08T10:00:00", end: "2025-07-08T13:00:00", className: "lecture" },
+          { title: "Smart Object Security (D'Angelo) - classroom 2.8", start: "2025-07-08T10:00:00", end: "2025-07-08T13:00:00", className: "lecture" },
           { title: "Lunch", start: "2025-07-08T13:00:00", end: "2025-07-08T14:00:00", className: "lunch" },
-          { title: "Project Work", start: "2025-07-08T14:00:00", end: "2025-07-08T17:00:00", className: "project" },
+          { title: "Project Work - lab 3.1", start: "2025-07-08T14:00:00", end: "2025-07-08T17:00:00", className: "project" },
 
           // Wednesday 9
-          { title: "Project Work", start: "2025-07-09T10:00:00", end: "2025-07-09T13:00:00", className: "project" },
+          { title: "Project Work - classroom 2.8", start: "2025-07-09T10:00:00", end: "2025-07-09T13:00:00", className: "project" },
           { title: "Lunch", start: "2025-07-09T13:00:00", end: "2025-07-09T14:00:00", className: "lunch" },
-          { title: "Data Prediction (Maniezzo)", start: "2025-07-09T14:00:00", end: "2025-07-09T17:00:00", className: "lecture" },
+          { title: "Data Prediction (Maniezzo) - classroom 2.8", start: "2025-07-09T14:00:00", end: "2025-07-09T17:00:00", className: "lecture" },
 
           // Thursday 10
-          { title: "ML & TinyML (Delnevo)", start: "2025-07-10T10:00:00", end: "2025-07-10T13:00:00", className: "lecture" },
+          { title: "ML & TinyML (Delnevo) - classroom 2.8", start: "2025-07-10T10:00:00", end: "2025-07-10T13:00:00", className: "lecture" },
           { title: "Lunch", start: "2025-07-10T13:00:00", end: "2025-07-10T14:00:00", className: "lunch" },
-          { title: "Social IoT (Girau)", start: "2025-07-10T14:00:00", end: "2025-07-10T17:00:00", className: "lecture" },
+          { title: "Social IoT (Girau) - classroom 2.8", start: "2025-07-10T14:00:00", end: "2025-07-10T17:00:00", className: "lecture" },
 
           // Friday 11
-          { title: "Docker (Andruccioli, Olayia)", start: "2025-07-11T10:00:00", end: "2025-07-11T13:00:00", className: "lecture" },
+          { title: "Docker (Andruccioli, Olayia) - lab 3.3", start: "2025-07-11T10:00:00", end: "2025-07-11T13:00:00", className: "lecture" },
           { title: "Lunch", start: "2025-07-11T13:00:00", end: "2025-07-11T14:00:00", className: "lunch" },
-          { title: "Project Work", start: "2025-07-11T14:00:00", end: "2025-07-11T17:00:00", className: "project" },
+          { title: "Project Work - lab 3.3", start: "2025-07-11T14:00:00", end: "2025-07-11T17:00:00", className: "project" },
 
           // Saturday 12
           { title: "Trip to Ferrari Museum", start: "2025-07-12T09:00:00", end: "2025-07-12T18:00:00", className: "trip" },
@@ -132,29 +142,40 @@
           { title: "Trip / Free Time", start: "2025-07-13T09:00:00", end: "2025-07-13T18:00:00", className: "trip" },
 
           // Monday 14
-          { title: "Project Work", start: "2025-07-14T10:00:00", end: "2025-07-14T13:00:00", className: "project" },
+          { title: "Project Work - lab 3.3", start: "2025-07-14T10:00:00", end: "2025-07-14T13:00:00", className: "project" },
           { title: "Lunch", start: "2025-07-14T13:00:00", end: "2025-07-14T14:00:00", className: "lunch" },
-          { title: "Data Viz & Gamification (Prandi, Ceccarini)", start: "2025-07-14T14:00:00", end: "2025-07-14T17:00:00", className: "lecture" },
+          { title: "Data Viz & Gamification (Prandi, Ceccarini) - classroom 2.4", start: "2025-07-14T14:00:00", end: "2025-07-14T17:00:00", className: "lecture" },
 
           // Tuesday 15
           { title: "Villa Griffone Visit", start: "2025-07-15T10:00:00", end: "2025-07-15T13:00:00", className: "trip" },
           { title: "Lunch", start: "2025-07-15T13:00:00", end: "2025-07-15T14:00:00", className: "lunch" },
-          { title: "Project Work", start: "2025-07-15T14:00:00", end: "2025-07-15T17:00:00", className: "project" },
+          { title: "Project Work - classroom 2.5", start: "2025-07-15T14:00:00", end: "2025-07-15T17:00:00", className: "project" },
 
           // Wednesday 16
-          { title: "Project Work", start: "2025-07-16T10:00:00", end: "2025-07-16T13:00:00", className: "project" },
+          { title: "Project Work - classroom 3.3", start: "2025-07-16T10:00:00", end: "2025-07-16T13:00:00", className: "project" },
           { title: "Lunch", start: "2025-07-16T13:00:00", end: "2025-07-16T14:00:00", className: "lunch" },
-          { title: "Project Work", start: "2025-07-16T14:00:00", end: "2025-07-16T17:00:00", className: "project" },
+          { title: "Project Work - classroom 3.3", start: "2025-07-16T14:00:00", end: "2025-07-16T17:00:00", className: "project" },
 
           // Thursday 17
-          { title: "Project Work", start: "2025-07-17T10:00:00", end: "2025-07-17T13:00:00", className: "project" },
+          { title: "Project Work - classroom 2.5", start: "2025-07-17T10:00:00", end: "2025-07-17T13:00:00", className: "project" },
           { title: "Lunch", start: "2025-07-17T13:00:00", end: "2025-07-17T14:00:00", className: "lunch" },
           { title: "Final Exam", start: "2025-07-17T14:00:00", end: "2025-07-17T17:00:00", className: "other" },
           { title: "Farewell Dinner @Scottadito", start: "2025-07-17T20:00:00", end: "2025-07-17T22:30:00", className: "social" },
 
           // Friday 18
           { title: "Departure to Bologna Airport", start: "2025-07-18T09:00:00", end: "2025-07-18T12:00:00", className: "other" }
-        ]
+        ],
+        headerToolbar: {
+          left: 'timeGridDay,timeGridWeek,dayGridMonth',
+          center: 'title',
+          right: 'prev,next today',
+        },
+        buttonText: {
+          today: 'Today',
+          timeGridDay: 'Day',
+          timeGridWeek: 'Week',
+          dayGridMonth: 'Month',
+        }
       });
 
       calendar.render();
